@@ -1,0 +1,10 @@
+import javax.swing.JOptionPane;
+
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello World");//Print Hello World to terminal
+        JOptionPane.showMessageDialog(null, "Hello World","Hello",-1);//Print Hello World in pop up window/message
+    }
+    
+}
